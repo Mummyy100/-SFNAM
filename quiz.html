@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-box">
+        <form id="quizForm">
+            <div class="question">
+                <label for="q1">1. What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+            <div class="question">
+                <label for="q2">2. What is the CSS property to change text color?</label>
+                <input type="text" id="q2" name="q2" required>
+            </div>
+            <div class="question">
+                <label for="q3">3. Write a simple JavaScript code to show an alert with "Hello".</label>
+                <input type="text" id="q3" name="q3" required>
+            </div>
+            <button type="submit">Submit Answers</button>
+        </form>
+        <div id="answers" class="answers" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
